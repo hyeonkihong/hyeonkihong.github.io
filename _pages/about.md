@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,9 +13,6 @@ I am an Associate Research Fellow at the National Pension Research Institute in 
 ## Contact
 
 hkhong25@nps.or.kr
-
 Actuarial/Financial Projection Division
-
 National Pension Research Institute
-
 1250, Sejong-ro, Sejong-si, (30100) Korea

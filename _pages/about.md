@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Hyeonki Hong"
 author_profile: true
 redirect_from: 
   - /about/

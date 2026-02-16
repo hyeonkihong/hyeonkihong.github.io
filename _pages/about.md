@@ -8,7 +8,11 @@ redirect_from:
 ---
 
 <p class="about-intro">
-I am an Associate Research Fellow at the National Pension Research Institute in Korea. My research focuses on labor and applied microeconomics, with particular interests in minimum wage and public pension. In this website you can find my <a href="/cv/">CV</a>, and further information on my <a href="/publications/">research</a>.
+I am an Associate Research Fellow at the National Pension Research Institute in Korea. 
+  
+My research focuses on labor and applied microeconomics, with particular interests in minimum wage and public pension. 
+
+In this website you can find my <a href="/cv/">CV</a>, and further information on my <a href="/publications/">research</a>.
 </p>
 
 ## Contact

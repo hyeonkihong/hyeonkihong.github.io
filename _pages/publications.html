@@ -9,28 +9,21 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<h2>Publications</h2>
+<hr />
+<p>
+  <a href="https://www.tandfonline.com/doi/full/10.1080/13504851.2024.2371484">The effects of the job stabilization fund on employment</a> with Seoungman Moon<br />
+  <em>Applied Economics Letters</em>, Vol 33, Issue 3, 2026, 427-431.
+</p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Working Papers</h2>
+<hr />
+<p>
+  The Effect of Job Stabilization Fund on Employment: Revisiting the Debate Over the Effects of the 2018 Minimum Wage Increase with Seoungman Moon
+</p>
+
+<h2>Public Publications</h2>
+<hr />
 
 
 

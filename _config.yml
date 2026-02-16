@@ -21,6 +21,7 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
+cv_external_url          : "https://drive.google.com/file/d/125x85OXdWUpHA5H2_HpP327988VpA02i/view?usp=sharing" # optional external CV URL. If set, the "CV" menu item links here
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:

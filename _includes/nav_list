@@ -7,14 +7,19 @@
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
+          {% assign resolved_nav_url = nav.url %}
+          {% if nav.title == "CV" and site.cv_external_url and site.cv_external_url != "" %}
+            {% assign resolved_nav_url = site.cv_external_url %}
+          {% endif %}
+
           {% comment %}internal/external URL check{% endcomment %}
-          {% if nav.url contains "://" %}
+          {% if resolved_nav_url contains "://" %}
             {% assign domain = "" %}
           {% else %}
             {% assign domain = base_path %}
           {% endif %}
 
-          <a href="{{ domain }}{{ nav.url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <a href="{{ domain }}{{ resolved_nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}

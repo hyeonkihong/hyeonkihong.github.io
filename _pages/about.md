@@ -15,6 +15,8 @@ My research focuses on labor and applied microeconomics, with particular interes
 In this website you can find my <a href="/cv/">CV</a>, and further information on my <a href="/publications/">research</a>.
 </p>
 
+<br><br><br>
+
 ## Contact
 
 <div class="contact-block">

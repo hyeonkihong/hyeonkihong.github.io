@@ -170,6 +170,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 18px;
   }
 
   button {
@@ -180,6 +181,7 @@
     }
   }
 }
+
 
 .author__urls {
   display: none;
